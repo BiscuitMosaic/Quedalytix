@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif !important;
+}
+#container {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-type: y mandatory !important;
+  overflow-y: scroll !important;
+}
+section {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start !important;
+}
+section:nth-of-type(1) {
+  background-color: white;
+}
+section:nth-of-type(2) {
+  background-color: white;
+}
+section:nth-of-type(3) {
+  background-color: white;
+}
+section:nth-of-type(4) {
+  background-color: white;
+}
+section:nth-of-type(5) {
+  background-color: white;
+}
+.container-fluid {
+  padding: 0 !important;
+}
+.navbar {
+  font-size: 1.1rem !important;
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+  background-color: #ffffff;
+  padding: 0 !important;
+}
+
+.nav {
+  margin-right: 5%;
+}
+.navbar-brand {
+  margin: 1% 0 1% 6.5%;
+  padding: 0 !important;
+}
+
+.nav-item .nav-link {
+  font-weight: bold;
+  padding: 0 !important;
+  margin: 25px;
+  color: #414042;
+}
+.nav-link:hover {
+  font-weight: bold;
+  padding: 0 !important;
+  margin: 25px;
+  animation: colorchange 1.5s infinite !important;
+}
+
+@keyframes colorchange {
+  0% {
+    color: #6b95b7;
+  }
+  30% {
+    color: #414042;
+  }
+
+  60% {
+    color: #d34d35;
+  }
+  100% {
+    color: #6b95b7;
+  }
+}
+#home {
+  width: 95vw;
+  height: 100vh;
+}
+
+.header1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 35% 0 0 12%;
+}
+
+.paragraph1 {
+  margin: 6% 0 0 12%;
+  text-align: justify;
+  font-size: 1.1rem !important;
+}
+
+.gif {
+  margin-top: 10%;
+  margin-left: 15%;
+  width: 600px;
+}
+
+#about-us {
+  width: 95vw;
+  height: 100vh;
+}
+
+.about-us-gif {
+  margin-top: 15%;
+  margin-left: 10%;
+  width: 600px;
+}
+.about-us-header {
+  margin-top: 25%;
+  margin-left: 35%;
+}
+.about-us-paragraph {
+  text-align: justify;
+  margin: 8% 8% 0 10%;
+}
